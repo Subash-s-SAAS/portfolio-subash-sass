@@ -220,23 +220,23 @@ const about: About = {
         tags: [
           {
             name: "React",
-            icon: "figma",
+            icon: "react",
           },
           {
             name: "Next.js",
-            icon: "figma",
+            icon: "nextjs",
           },
           {
             name: "Tanstack",
-            icon: "figma",
+            icon: "tanstack",
           },
           {
             name: "Tailwindcss",
-            icon: "figma",
+            icon: "tailwind",
           },
           {
             name: "Shadcn",
-            icon: "figma",
+            icon: "shadcn",
           },
         ],
         // optional: leave the array empty if you don't want to display images
@@ -266,15 +266,48 @@ const about: About = {
         tags: [
           {
             name: "Nodejs",
-            icon: "javascript",
+            icon: "nodejs",
           },
           {
             name: "AWS",
-            icon: "nextjs",
+            icon: "aws",
           },
           {
             name: "Supabase",
             icon: "supabase",
+          },
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          // {
+          //   src: "/images/projects/project-01/cover-04.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
+        ],
+      },
+      {
+        title: "Dev Tools",
+        description: (
+          <>Using best developer tools for the development process.</>
+        ),
+        tags: [
+          {
+            name: "GitHub",
+            icon: "github",
+          },
+          {
+            name: "GitLab",
+            icon: "gitlab",
+          },
+          {
+            name: "VS Code",
+            icon: "vscode",
+          },
+          {
+            name: "Antigravity",
+            icon: "antigravity",
           },
         ],
         // optional: leave the array empty if you don't want to display images
