@@ -15,9 +15,10 @@ const person: Person = {
   lastName: "Thatheuse",
   name: `Subash Thatheuse`,
   role: "Software Engineer",
-  avatar: "/images/avatar.jpg",
+  avatar: "/images/subash.jpg",
   email: "subashsuni55@gmail.com",
   location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  displayLocation: "India/Tamilnadu",
   languages: ["English", "Tamil", "Malayalam"], // optional: Leave the array empty if you don't want to display languages
 };
 
