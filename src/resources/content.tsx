@@ -15,7 +15,7 @@ const person: Person = {
   lastName: "Thatheuse",
   name: `Subash Thatheuse`,
   role: "Software Engineer",
-  avatar: "/images/subash.jpg",
+  avatar: "/images/subash.jpeg",
   email: "subashsuni55@gmail.com",
   location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   displayLocation: "India/Tamilnadu",
@@ -35,13 +35,13 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/subashf23s",
+    link: "https://www.github.com/subashf23s",
     essential: true,
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "www.linkedin.com/in/subash-thatheuse",
+    link: "https://www.linkedin.com/in/subash-thatheuse",
     essential: true,
   },
   // {
@@ -109,7 +109,7 @@ const about: About = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false,
     link: "https://cal.com",
   },
   intro: {
@@ -117,9 +117,9 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for
-        transforming complex challenges into simple, elegant design solutions.
-        Her work spans digital interfaces, interactive experiences, and the
+        Subash is an India-based software engineer with a passion for
+        transforming complex challenges into simple, elegant software solutions.
+        His work spans digital interfaces, interactive experiences, and the
         convergence of design and technology.
       </>
     ),
@@ -129,44 +129,63 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Litmus7",
+        timeframe: "2024 July - Present",
+        role: "Senior Software Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20%
-            increase in user engagement and 30% faster load times.
+            Worked on several Retail projects including Tata Croma, Helly
+            Hansen, Boggi Milano UAE.
           </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows,
-            enabling designers to iterate 50% faster.
-          </>,
+          <>Done several PoCs : Sanity CMS, Three.js , Tanstack Start.</>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
+            src: "/images/logos/litmus7.png",
+            alt: "Litmus7",
+            width: 9,
+            height: 6,
           },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Gadgeon",
+        timeframe: "2022 May - 2024 June",
+        role: "Software Engineer",
         achievements: [
-          <>
-            Developed a design system that unified the brand across multiple
-            platforms, improving design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line,
-            contributing to a 15% increase in overall company revenue.
-          </>,
+          <>Worked with KORE wireless.</>,
+          <>Developed internal seat booking app.</>,
+          <>Created a UI Library to be used across the projects.</>,
         ],
-        images: [],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/logos/gadgeon.png",
+            alt: "Gadgeon",
+            width: 9,
+            height: 6,
+          },
+        ],
+      },
+      {
+        company: "OBO Technology",
+        timeframe: "2020 May - 2024 May",
+        role: "Technical Member",
+        achievements: [
+          <>Worked with KORE wireless.</>,
+          <>Developed internal seat booking app.</>,
+          <>Created a UI Library to be used across the projects.</>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/logos/obo.png",
+            alt: "OBO",
+            width: 9,
+            height: 6,
+          },
+        ],
       },
     ],
   },
@@ -175,12 +194,14 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "NMCC, Kanyakumari, Tamilnadu.",
+        description: (
+          <>
+            Studied Master of Computer Application.
+            <br />
+            Studied Bachelor of Computer Application
+          </>
+        ),
       },
     ],
   },
@@ -189,45 +210,67 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Frontend",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>
+            Creates UI for webpage and apps based on the expertise from several
+            projects.
+          </>
         ),
         tags: [
           {
-            name: "Figma",
-            icon: "figma",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        title: "Next.js",
-        description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
-        ),
-        tags: [
-          {
-            name: "JavaScript",
-            icon: "javascript",
+            name: "React",
+            icon: "react",
           },
           {
             name: "Next.js",
             icon: "nextjs",
+          },
+          {
+            name: "Tanstack",
+            icon: "tanstack",
+          },
+          {
+            name: "Tailwindcss",
+            icon: "tailwind",
+          },
+          {
+            name: "Shadcn",
+            icon: "shadcn",
+          },
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          // {
+          //   src: "/images/projects/project-01/cover-02.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
+          // {
+          //   src: "/images/projects/project-01/cover-03.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
+        ],
+      },
+      {
+        title: "Backend",
+        description: (
+          <>
+            Developed several Backend projects with diversive frameworks ,
+            handling edge cases.
+          </>
+        ),
+        tags: [
+          {
+            name: "Nodejs",
+            icon: "nodejs",
+          },
+          {
+            name: "AWS",
+            icon: "aws",
           },
           {
             name: "Supabase",
@@ -236,12 +279,45 @@ const about: About = {
         ],
         // optional: leave the array empty if you don't want to display images
         images: [
+          // {
+          //   src: "/images/projects/project-01/cover-04.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
+        ],
+      },
+      {
+        title: "Dev Tools",
+        description: (
+          <>Using best developer tools for the development process.</>
+        ),
+        tags: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
+            name: "GitHub",
+            icon: "github",
           },
+          {
+            name: "GitLab",
+            icon: "gitlab",
+          },
+          {
+            name: "VS Code",
+            icon: "vscode",
+          },
+          {
+            name: "Antigravity",
+            icon: "antigravity",
+          },
+        ],
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          // {
+          //   src: "/images/projects/project-01/cover-04.jpg",
+          //   alt: "Project image",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
     ],

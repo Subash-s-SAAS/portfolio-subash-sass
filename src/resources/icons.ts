@@ -27,9 +27,30 @@ import {
   SiNextdotjs,
   SiFigma,
   SiSupabase,
+  SiReact,
+  SiTailwindcss,
+  SiShadcnui,
+  SiReactquery,
+  SiGitlab,
 } from "react-icons/si";
 
-import { FaDiscord, FaGithub, FaLinkedin, FaX, FaThreads, FaInstagram, FaXTwitter, FaFacebook, FaPinterest, FaWhatsapp, FaReddit, FaTelegram, } from "react-icons/fa6";
+import {
+  FaDiscord,
+  FaGithub,
+  FaLinkedin,
+  FaX,
+  FaThreads,
+  FaInstagram,
+  FaXTwitter,
+  FaFacebook,
+  FaPinterest,
+  FaWhatsapp,
+  FaReddit,
+  FaTelegram,
+  FaAws,
+  FaNodeJs,
+} from "react-icons/fa6";
+import { VscVscode } from "react-icons/vsc";
 
 export const iconLibrary: Record<string, IconType> = {
   arrowUpRight: HiArrowUpRight,
@@ -58,6 +79,15 @@ export const iconLibrary: Record<string, IconType> = {
   nextjs: SiNextdotjs,
   supabase: SiSupabase,
   figma: SiFigma,
+  react: SiReact,
+  tailwind: SiTailwindcss,
+  shadcn: SiShadcnui,
+  tanstack: SiReactquery,
+  gitlab: SiGitlab,
+  vscode: VscVscode,
+  antigravity: VscVscode,
+  aws: FaAws,
+  nodejs: FaNodeJs,
   facebook: FaFacebook,
   pinterest: FaPinterest,
   whatsapp: FaWhatsapp,
